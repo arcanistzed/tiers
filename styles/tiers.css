@@ -1,0 +1,76 @@
+.sheet.adventure-importer .adventure-options {
+	margin-left: 1rem;
+}
+
+.sheet.adventure-exporter .adventure-footer {
+	display: flex;
+}
+
+.tiers-collector {
+	overflow: hidden;
+}
+
+.tiers-collector form {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1em;
+}
+
+.tiers-collector section {
+	display: flex;
+	flex-direction: column;
+	gap: 1ch;
+}
+
+.tiers-collector h1 {
+	text-align: center;
+	margin: 0;
+}
+
+.tiers-collector :is(.documents, details, code) {
+	padding: 1ch;
+	border-radius: 5px;
+}
+
+.tiers-collector :is(.documents, details) {
+	box-shadow: inset 0 0 4px black;
+}
+
+.tiers-collector .documents small {
+	text-align: center;
+	margin: 0.5ch;
+	opacity: 0.5;
+	display: block;
+	pointer-events: none;
+}
+
+.tiers-collector a.content-link {
+	margin: 0.5ch;
+	line-height: 2;
+}
+
+.tiers-collector summary {
+	padding: 1ch;
+	margin: -1ch;
+    position: relative;
+}
+
+.tiers-collector summary a {
+    position: absolute;
+    right: 1ch;
+}
+
+.tiers-collector code {
+	display: block;
+	overflow-wrap: anywhere;
+	white-space: pre-wrap;
+	background-color: hsla(0, 0%, 0%, 10%);
+}
+
+.tiers-collector footer {
+	grid-column: span 2;
+	place-content: center;
+	display: flex;
+	flex-direction: column;
+	gap: 1ch;
+}
