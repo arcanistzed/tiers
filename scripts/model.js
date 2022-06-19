@@ -56,7 +56,11 @@ class EssentialSchemaField extends fields.SchemaField {
 					? isObjectEmpty(diffObject(data[key], initial))
 					: data[key] === initial
 			) {
-				delete data[key];
+				try {
+					delete data[key];
+				} catch (error) {
+					data[key] = undefined;
+				}
 			} else if (typeof initial === "object" && initial != null && data[key] != null) {
 				data[key] = diffObject(data[key], initial);
 			}
