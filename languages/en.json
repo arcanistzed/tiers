@@ -10,7 +10,11 @@
         },
         "collector": {
             "title": "Tiers Collector",
-            "tier": "Tier {number}"
+            "tier": "Tier {number}",
+            "addSelectedTokens": "Add Selected Tokens",
+            "dragDocumentsHere": "Drag Documents here",
+            "selectAnAdventure": "Select an Adventure to update:",
+            "save": "Save"
         }
     }
 }

@@ -4,7 +4,7 @@
 			<h1>{{localize "tiers.collector.tier" number=tier.key}}</h1>
 			<div class="documents">
 				{{#unless tier.value.documents}}
-					<small>Drag Documents here</small>
+					<small>{{localize "tiers.collector.dragDocumentsHere"}}</small>
 				{{/unless}}
 				{{#each tier.value.documents as |document|}}
 					{{{document}}}
@@ -12,25 +12,31 @@
 			</div>
 			{{#each tier.value.tokens as |token|}}
 				<details data-id="{{token._id}}">
-					<summary>{{token.name}}<a data-action="remove"><i class="fas fa-trash"></i></a></summary>
+					<summary>
+						{{token.name}}
+						<a data-action="remove"><i class="fas fa-trash"></i></a>
+					</summary>
 					<code>{{{token.stringified}}}</code>
 				</details>
 			{{/each}}
 			<button type="button" data-action="addSelectedTokens">
 				<i class="fas fa-add"></i>
-				Add Selected Tokens
+				{{localize "tiers.collector.addSelectedTokens"}}
 			</button>
 		</section>
 	{{/each}}
 	<footer>
 		{{#unless adventure}}
 			<label>
-				Select an Adventure to update:
+				{{localize "tiers.collector.selectAnAdventure"}}
 				<select name="adventure">
 					{{selectOptions adventures}}
 				</select>
 			</label>
 		{{/unless}}
-		<button type="submit"><i class="fas fa-save"></i> Save</button>
+		<button type="submit">
+            <i class="fas fa-save"></i>
+            {{localize "tiers.collector.save"}}
+        </button>
 	</footer>
 </form>
