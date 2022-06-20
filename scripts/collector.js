@@ -30,7 +30,7 @@ export default class TiersCollector extends FormApplication {
 			id: "tiers-collector",
 			template: "modules/tiers/templates/collector.hbs",
 			classes: ["tiers-collector"],
-			width: (innerWidth * 3) / 4,
+			width: Math.max(window.innerWidth * 1 / 3, 600),
 			resizable: true,
 			dragDrop: [{ dropSelector: ".documents" }],
 		});
