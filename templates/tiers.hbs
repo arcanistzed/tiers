@@ -1,12 +1,12 @@
 <section class="adventure-options">
-    <h2>{{ localize "tiers.adventureImporter.title" }}</h2>
-    <div class="form-group">
-        <label>{{ localize "tiers.adventureImporter.label" }}</label>
-        <div class="form-fields">
-            <select name="tier">
-                {{selectOptions tiers selected=tier.current localize=true}}
-            </select>
-        </div>
-        <p class="notes">{{{ localize "tiers.adventureImporter.explanation" min=tier.min max=tier.max }}}</p>
-    </div>
+	<h2>{{localize "tiers.adventureImporter.title"}}</h2>
+	<div class="form-group">
+		<label>{{localize "tiers.adventureImporter.label"}}</label>
+		<div class="form-fields">
+			<select name="tier">
+				{{selectOptions tiers selected=tier.current localize=true}}
+			</select>
+		</div>
+		<p class="notes">{{{localize "tiers.adventureImporter.explanation" min=tier.min max=tier.max}}}</p>
+	</div>
 </section>
