@@ -1,20 +1,20 @@
 {
-    "tiers": {
-        "adventureImporter": {
-            "title": "Options",
-            "label": "Tier",
-            "explanation": "Suitable for player characters between levels <strong>{min}</strong> and <strong>{max}</strong>."
-        },
-        "notifications": {
-            "import": "Finished importing tokens for Tier {tier}"
-        },
-        "collector": {
-            "title": "Tiers Collector",
-            "tier": "Tier {number}",
-            "addSelectedTokens": "Add Selected Tokens",
-            "dragDocumentsHere": "Drag Documents here",
-            "selectAnAdventure": "Select an Adventure to update:",
-            "save": "Save"
-        }
-    }
+	"tiers": {
+		"adventureImporter": {
+			"title": "Options",
+			"label": "Tier",
+			"explanation": "Suitable for player characters between levels <strong>{min}</strong> and <strong>{max}</strong>."
+		},
+		"notifications": {
+			"import": "Finished importing tokens for Tier {tier}"
+		},
+		"collector": {
+			"title": "Tiers Collector",
+			"tier": "Tier {number}",
+			"addSelectedTokens": "Add Selected Tokens",
+			"dragDocumentsHere": "Drag Documents here",
+			"selectAnAdventure": "Select an Adventure to update:",
+			"save": "Save"
+		}
+	}
 }

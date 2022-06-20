@@ -1,54 +1,50 @@
 {
-  "id": "tiers",
-  "title": "Adventure Tiers",
-  "description": "Set up your Adventure for all 4 tiers of players to import different content based on the user's choice.",
-  "authors": [
-    {
-      "name": "Arcanist",
-      "url": "https://arcanistzed.github.io/",
-      "email": "arcanistzed@gmail.com",
-      "discord": "arcanist#4317",
-      "reddit": "u/arcanistzed"
-    }
-  ],
-  "url": "This is auto replaced",
-  "license": "https://github.com/arcanistzed/tiers/blob/main/LICENSE",
-  "readme": "https://github.com/arcanistzed/tiers/blob/main/README.md",
-  "bugs": "https://github.com/arcanistzed/tiers/issues/new/choose",
-  "changelog": "https://github.com/arcanistzed/tiers/blob/main/CHANGELOG.md",
-  "flags": {
-    "allowBugReporter": true
-  },
-  "version": "This is auto replaced",
-  "compatibility": {
-    "minimum": "10",
-    "verified": "10",
-    "maximum": "10"
-  },
-  "scripts": [],
-  "esmodules": [
-    "scripts/tiers.js"
-  ],
-  "styles": [
-    "styles/tiers.css"
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
-    }
-  ],
-  "packs": [],
-  "relationships": {},
-  "manifest": "This is auto replaced",
-  "download": "This is auto replaced",
-  "library": false,
-  "manifestPlusVersion": "1.2.0",
-  "media": [
-    {
-      "type": "cover",
-      "url": ""
-    }
-  ]
+	"id": "tiers",
+	"title": "Adventure Tiers",
+	"description": "Set up your Adventure for all 4 tiers of players to import different content based on the user's choice.",
+	"authors": [
+		{
+			"name": "Arcanist",
+			"url": "https://arcanistzed.github.io/",
+			"email": "arcanistzed@gmail.com",
+			"discord": "arcanist#4317",
+			"reddit": "u/arcanistzed"
+		}
+	],
+	"url": "This is auto replaced",
+	"license": "https://github.com/arcanistzed/tiers/blob/main/LICENSE",
+	"readme": "https://github.com/arcanistzed/tiers/blob/main/README.md",
+	"bugs": "https://github.com/arcanistzed/tiers/issues/new/choose",
+	"changelog": "https://github.com/arcanistzed/tiers/blob/main/CHANGELOG.md",
+	"flags": {
+		"allowBugReporter": true
+	},
+	"version": "This is auto replaced",
+	"compatibility": {
+		"minimum": "10",
+		"verified": "10",
+		"maximum": "10"
+	},
+	"scripts": [],
+	"esmodules": ["scripts/tiers.js"],
+	"styles": ["styles/tiers.css"],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "languages/en.json"
+		}
+	],
+	"packs": [],
+	"relationships": {},
+	"manifest": "This is auto replaced",
+	"download": "This is auto replaced",
+	"library": false,
+	"manifestPlusVersion": "1.2.0",
+	"media": [
+		{
+			"type": "cover",
+			"url": ""
+		}
+	]
 }

@@ -52,12 +52,12 @@
 .tiers-collector summary {
 	padding: 1ch;
 	margin: -1ch;
-    position: relative;
+	position: relative;
 }
 
 .tiers-collector summary a {
-    position: absolute;
-    right: 1ch;
+	position: absolute;
+	right: 1ch;
 }
 
 .tiers-collector code {

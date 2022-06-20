@@ -4,7 +4,7 @@ import Tiers from "./model.js";
 Hooks.on("renderAdventureExporter", (app, [html]) => {
 	const { uuid } = app.adventure;
 	const button = document.createElement("button");
-	button.innerHTML = `<i class="fa-solid fa-star"></i> ${game.i18n.localize("tiers.collector.title")}`;
+	button.innerHTML = `<i class="fa-solid fa-ranking-star"></i> ${game.i18n.localize("tiers.collector.title")}`;
 	button.type = "button";
 	html.querySelector("footer").prepend(button);
 	app.setPosition();
@@ -34,7 +34,7 @@ export default class TiersCollector extends FormApplication {
 			id: "tiers-collector",
 			template: "modules/tiers/templates/collector.hbs",
 			classes: ["tiers-collector"],
-			width: Math.max((window.innerWidth * 1) / 3, 600),
+			width: Math.max(window.innerWidth / 3, 600),
 			resizable: true,
 			dragDrop: [{ dropSelector: ".documents" }], // Allow dropping on the documents area
 		});
