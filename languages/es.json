@@ -1,0 +1,20 @@
+{
+	"tiers": {
+		"adventureImporter": {
+			"title": "Opciones",
+			"label": "Nivel",
+			"explanation": "Recomendable para personajes jugadores con niveles entre <strong>{min}</strong> y <strong>{max}</strong>."
+		},
+		"notifications": {
+			"import": "Terminó la importación de tokens de nivel {tier}"
+		},
+		"collector": {
+			"title": "Colección de Niveles",
+			"tier": "Nivel {number}",
+			"addSelectedTokens": "Añadir los Tokens seleccionados",
+			"dragDocumentsHere": "Arrastrar Documentos aquí",
+			"selectAnAdventure": "Elige una Aventura para actualizar:",
+			"save": "Guardar"
+		}
+	}
+}
